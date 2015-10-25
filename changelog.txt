@@ -12,3 +12,6 @@ Major changes or tweaks to code will be documented here
 
 ##0.0.2
 ###Added telemetry data for motor direction
+
+##0.0.3
+###Added other telemetry calls and TODOs
