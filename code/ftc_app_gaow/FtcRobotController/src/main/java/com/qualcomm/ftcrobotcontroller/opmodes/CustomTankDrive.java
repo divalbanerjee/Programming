@@ -58,13 +58,14 @@ public class CustomTankDrive extends K9TankDrive {
         //ternaries ensure that opposing motors always run in opposite directions
         DcMotor.Direction lDriveDir = (robotMotionReversed ? DcMotor.Direction.REVERSE : DcMotor.Direction.FORWARD);
         DcMotor.Direction rDriveDir = (robotMotionReversed ? DcMotor.Direction.FORWARD : DcMotor.Direction.REVERSE);
+        //get and relay motor direction telemetry data
         String lDir = (lDriveDir == DcMotor.Direction.REVERSE) ? "REVERSE" : "FORWARD";
         String rDir = (rDriveDir == DcMotor.Direction.REVERSE) ? "REVERSE" : "FORWARD";
+        telemetry.addData("lDirection", "lDir==" + lDir);
+        telemetry.addData("rDirection", "rDir==" + rDir);
         //set the correct motor direction
         lMotor1.setDirection(lDriveDir);
         lMotor2.setDirection(lDriveDir);
-        telemetry.addData("lDirection", "lDir==" + lDir);
-        telemetry.addData("rDirection", "rDir==" + rDir);
         rMotor1.setDirection(rDriveDir);
         rMotor2.setDirection(rDriveDir);
     }

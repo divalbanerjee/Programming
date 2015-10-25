@@ -9,3 +9,6 @@ Major changes or tweaks to code will be documented here
 ##0.0.1
 ###Added Javadoc comments and tags
 ###Registered CustomTankDrive opmode in FtcOpModeRegister
+
+##0.0.2
+###Added telemetry data for motor direction
