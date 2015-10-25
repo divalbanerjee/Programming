@@ -5,11 +5,14 @@ import com.qualcomm.robotcore.hardware.Gamepad;
 import com.qualcomm.robotcore.util.Range;
 
 /**
- * Created by Wei on 10/23/2015.
+ * @author Wei Gao
+ * @version 0.0.1
  */
+
+/** Variant of K9TankDrive modified for 4 motors */
 public class CustomTankDrive extends K9TankDrive {
 
-    //master motor direction control
+    //master motor direction control1
     boolean robotMotionReversed = false;
 
     //motor names as seen by the hardware
@@ -34,15 +37,16 @@ public class CustomTankDrive extends K9TankDrive {
         super();
     }
 
-    //interfaces for controlling motor speed during driving
+    /** control all 4 motors at once using speed for each side */
     public void drive(float rSpeed, float lSpeed)
     {
         lMotor1.setPower(lSpeed);
         lMotor2.setPower(lSpeed);
+        rMotor1.setPower(rSpeed);
+        rMotor2.setPower(rSpeed);
     }
 
-    //initialization routine
-    //called before the match
+    /** Initialization routine called at start of match */
     @Override
     public void init()
     {
@@ -62,8 +66,7 @@ public class CustomTankDrive extends K9TankDrive {
         rMotor2.setDirection(rDriveDir);
     }
 
-    //loop function which oddly enough loops during match
-    //TODO see if you need to manually end this part with a method call
+    /** Main function which loops during teleop play */
     @Override
     public void loop()
     {
