@@ -1,7 +1,6 @@
 package com.qualcomm.ftcrobotcontroller.opmodes;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.Gamepad;
 import com.qualcomm.robotcore.util.Range;
 
 /**
@@ -59,9 +58,13 @@ public class CustomTankDrive extends K9TankDrive {
         //ternaries ensure that opposing motors always run in opposite directions
         DcMotor.Direction lDriveDir = (robotMotionReversed ? DcMotor.Direction.REVERSE : DcMotor.Direction.FORWARD);
         DcMotor.Direction rDriveDir = (robotMotionReversed ? DcMotor.Direction.FORWARD : DcMotor.Direction.REVERSE);
+        String lDir = (lDriveDir == DcMotor.Direction.REVERSE) ? "REVERSE" : "FORWARD";
+        String rDir = (rDriveDir == DcMotor.Direction.REVERSE) ? "REVERSE" : "FORWARD";
         //set the correct motor direction
         lMotor1.setDirection(lDriveDir);
         lMotor2.setDirection(lDriveDir);
+        telemetry.addData("lDirection", "lDir==" + lDir);
+        telemetry.addData("rDirection", "rDir==" + rDir);
         rMotor1.setDirection(rDriveDir);
         rMotor2.setDirection(rDriveDir);
     }
