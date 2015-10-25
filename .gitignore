@@ -17,6 +17,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# local.properties in IntelliJ IDEA/Android Studio
+local.properties
+
 # =========================
 # Operating System Files
 # =========================
