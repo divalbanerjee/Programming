@@ -7,13 +7,14 @@ import com.qualcomm.robotcore.util.Range;
  * @author Wei Gao
  * @version 0.0.1
  */
-
+//FIXME test foo bar
 /** Variant of K9TankDrive modified for 4 motors */
 public class CustomTankDrive extends K9TankDrive {
 
     //master motor direction control
     boolean robotMotionReversed = false;
-    //telemetry debug data on/off
+
+    //telemetry certain debug data on/off
     //TODO see if this can be controlled by hardware
     boolean telemetryEnabled = true;
 
