@@ -8,3 +8,6 @@ local.properties
 
 #Windows shortcuts
 *.lnk
+
+#exclude old temp/ directory
+temp/
