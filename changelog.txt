@@ -1,0 +1,17 @@
+#Changelog
+Changelog for ftc-app_gaow
+Major changes or tweaks to code will be documented here
+
+##0.0.0
+###10/23/2015
+###Created file
+
+##0.0.1
+###Added Javadoc comments and tags
+###Registered CustomTankDrive opmode in FtcOpModeRegister
+
+##0.0.2
+###Added telemetry data for motor direction
+
+##0.0.3
+###Added other telemetry calls and TODOs
