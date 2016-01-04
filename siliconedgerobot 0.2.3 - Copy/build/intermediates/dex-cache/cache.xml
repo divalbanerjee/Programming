@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\exploded-aar\RobotCore-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a5fadb0dbb392372142275356999752343e21148">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\pre-dexed\debug\classes-4819e893f27a4a58814f320e9d1a8ee78d2ade9d.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\exploded-aar\WirelessP2p-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ebf8372b5bc9dc9f596ed438df36481099d51c41">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\pre-dexed\debug\classes-f3acb647e1c1f4a99df772458e528026c76726bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\exploded-aar\Analytics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23c74caa2b901107adc4d0aec343c5b8e8be86fb">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\pre-dexed\debug\classes-e720f599f5c6b3b9a8074d56fba4f0a37fc6689a.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\exploded-aar\Analytics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23c74caa2b901107adc4d0aec343c5b8e8be86fb">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\pre-dexed\debug\classes-e722025977fde8fb0fd14c76ac85654a82e4f503.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\exploded-aar\WirelessP2p-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ebf8372b5bc9dc9f596ed438df36481099d51c41">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\pre-dexed\debug\classes-3e05d2eeab3488f803c2f674c9f77ff473a36130.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\exploded-aar\FtcCommon-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="37738feb62fd1abd7395899609373e990483750f">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\pre-dexed\debug\classes-9001a6cb030935e33ac91bcef598da577ab00b00.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\exploded-aar\Hardware-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="16efc4540aa5ac1cce5fde6c57edc09f5bc12e92">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\pre-dexed\debug\classes-534bf4c692ed37e3e71d875d723db05ed2e051bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\exploded-aar\FtcCommon-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="37738feb62fd1abd7395899609373e990483750f">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\pre-dexed\debug\classes-b28a271c5d573ffaa37c375fa8cf0c5ae864bf77.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\exploded-aar\ModernRobotics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f71d91f91744fdbed74e2bf39f91268d1580cefc">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\pre-dexed\debug\classes-72d7e2487f24f6c9b272d92f96b001be037a14f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\exploded-aar\FtcCommon-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="37738feb62fd1abd7395899609373e990483750f">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\pre-dexed\debug\classes-25474093c0c11187f1333515581131928322aea7.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\exploded-aar\ModernRobotics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f71d91f91744fdbed74e2bf39f91268d1580cefc">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\pre-dexed\debug\classes-d12433b5fd33cf4ccc36bd1538d364f7874578ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\exploded-aar\Hardware-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="16efc4540aa5ac1cce5fde6c57edc09f5bc12e92">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3 - Copy\FtcRobotController\build\intermediates\pre-dexed\debug\classes-6dad9c9f80caedb2655241ddac8a9d48c06cc15d.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\exploded-aar\RobotCore-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a5fadb0dbb392372142275356999752343e21148">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\pre-dexed\debug\classes-034a9e051dc59889a0c505239e2a455c9b75bf18.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\exploded-aar\Hardware-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="16efc4540aa5ac1cce5fde6c57edc09f5bc12e92">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\pre-dexed\debug\classes-9b32a8f8ad7191402b00303035b513794077cdde.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\exploded-aar\Analytics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23c74caa2b901107adc4d0aec343c5b8e8be86fb">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.3\FtcRobotController\build\intermediates\pre-dexed\debug\classes-b02be6e642708d91892411c7b24422b1e6bb9582.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\exploded-aar\WirelessP2p-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ebf8372b5bc9dc9f596ed438df36481099d51c41">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\pre-dexed\debug\classes-596c1c258b740d38d82323372d0c2967a81f7f4d.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\exploded-aar\ModernRobotics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f71d91f91744fdbed74e2bf39f91268d1580cefc">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\pre-dexed\debug\classes-5a36b126c9ed62d2098f5ad790e6a2c605ff8b61.jar" />
+    </item>
+    <item
+        jar="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\exploded-aar\RobotCore-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a5fadb0dbb392372142275356999752343e21148">
+        <dex dex="C:\Users\div\OneDrive\SiliconEdgeFTC\Programming\siliconedgerobot 0.2.1 - Edit\FtcRobotController\build\intermediates\pre-dexed\debug\classes-e60becb1c53e3563b66d24d2d4a80c0baaab1a8a.jar" />
+    </item>
+
+</items>

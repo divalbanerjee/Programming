@@ -1,6 +1,7 @@
-#IntelliJ idea/ directory
-.idea/
-*.iml
+#IntelliJ .idea/ directory files
+#these store user-specific configs
+.idea/workspace.xml
+.idea/tasks.xml
 
 #Android Studio/IntelliJ local.properties
 #if included, screws up ADK/JDK location
