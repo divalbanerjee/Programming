@@ -1,0 +1,15 @@
+============================
+Restoring Archived Branches
+============================
+
+To avoid clutter, some old branches have been archived and deleted.
+Currently, these branches are:
+
+--"power-on-test-dev" - redundant to "power-on-test"
+
+To restore any of these branches, use:
+
+	git checkout -b <branchname> archive/<branchname>
+
+This will restore the branch from the archive.
+
