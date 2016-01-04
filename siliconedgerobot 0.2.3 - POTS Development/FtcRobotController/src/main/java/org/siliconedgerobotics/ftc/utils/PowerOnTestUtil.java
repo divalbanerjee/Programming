@@ -4,8 +4,10 @@ import com.qualcomm.robotcore.eventloop.opmode.OpModeRegister;
 import com.qualcomm.robotcore.hardware.HardwareDevice;
 
 /**
- * Created by div on 12/29/2015.
+ * Created by Wei on 12/29/2015.
  */
+
+//The salt, man! The salt is real!
 public class PowerOnTestUtil {
 
     public PowerOnTestUtil() {
