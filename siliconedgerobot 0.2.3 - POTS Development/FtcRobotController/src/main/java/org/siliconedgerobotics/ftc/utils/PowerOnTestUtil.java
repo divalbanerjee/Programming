@@ -3,6 +3,8 @@ import com.qualcomm.ftcrobotcontroller.opmodes.*;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegister;
 import com.qualcomm.robotcore.hardware.HardwareDevice;
 
+import org.siliconedgerobotics.ftc.exception.HardwareNotFoundException;
+
 /**
  * Created by Wei on 12/29/2015.
  */
