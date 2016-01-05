@@ -22,7 +22,7 @@ public class PowerOnTestUtil {
             try {
 
             } catch (Exception e) {
-                //SiEdgeOpMode.
+                //RefactoredOpMode.
                 return false;
             }
 

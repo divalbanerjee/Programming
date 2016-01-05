@@ -64,7 +64,7 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register ("DriveTeleOp", DriveTeleOp.class);
     manager.register ("CustomTankDrive", CustomTankDrive.class);
     manager.register("MyTeleOp2", MyTeleOp2.class);
-    manager.register("SiEdgeOpMode",SiEdgeOpMode.class);
+    manager.register("RefactoredOpMode",SiEdgeOpMode.class);
 
     manager.register("SiEdgeOpModeArm",SiEdgeOpModeArm.class);
         /*
