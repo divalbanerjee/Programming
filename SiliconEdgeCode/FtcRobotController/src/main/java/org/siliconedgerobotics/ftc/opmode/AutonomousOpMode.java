@@ -14,7 +14,7 @@ public class AutonomousOpMode extends OpMode {
     }
 
     public void loop(){
-        
+
     }
 
 }
