@@ -3,13 +3,13 @@ import com.qualcomm.ftcrobotcontroller.opmodes.*;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegister;
 import com.qualcomm.robotcore.hardware.HardwareDevice;
 
-import org.siliconedgerobotics.ftc.exception.HardwareNotFoundException;
-
 /**
+ * @deprecated
  * Created by Wei on 12/29/2015.
+ * Apparently div is working on one, and I'm too lazy to finish this one
  */
 
-//The salt, man! The salt is real!
+@Deprecated
 public class PowerOnTestUtil {
 
     public PowerOnTestUtil() {
