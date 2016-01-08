@@ -7,7 +7,11 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
  */
 
 // the fabled autonomous
-public class AutonomousOpMode extends OpMode {
+public class AutonomousOpMode extends CommonOpMode {
+
+    public AutonomousOpMode() {
+        super();
+    }
 
     public void init(){
 
