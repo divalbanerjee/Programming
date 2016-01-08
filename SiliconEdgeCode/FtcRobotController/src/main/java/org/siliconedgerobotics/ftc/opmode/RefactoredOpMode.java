@@ -11,7 +11,7 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 // don't like the name? you can always refactor it later
-public class TeleOpMode extends OpMode
+public class RefactoredOpMode extends OpMode
 {
     // declare motor speed ceiling
     static final double DefaultSpeed = 0.5; // generic motor speed (50%)
@@ -61,7 +61,7 @@ public class TeleOpMode extends OpMode
     Servo servoTape;
     Servo servoBucket;
 
-    public TeleOpMode()
+    public RefactoredOpMode()
     {
         super();
     }
