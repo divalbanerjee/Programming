@@ -12,6 +12,7 @@ public class SiEdgeOpModeArm extends OpMode {
 
     //to avoid the overuse of magic numbers
     static final double tapeSpeed = 0.5; //speed of tape reel extension/retraction
+    static final double tapeRetractSpeed = 0.05; // used for lowering the tape arm to avoid tape damage
     static final double brushSpeed = 0.5; // speed of collector brush
     static final double slideSpeed = 0.3; // speed of slide extension
     static final double conveyorSpeed = 0.85; // speed of debris conveyor
@@ -158,6 +159,7 @@ public class SiEdgeOpModeArm extends OpMode {
         //TODO Automate climbing maneuver by auto-retracting the tape as the bot climbs
         if(gamepad1.x){
             servopos1 -= tapedelta;
+            motorTape.setPower(-tapeRetractSpeed);
         }
         if (gamepad1.y){
             servopos1 += tapedelta;
