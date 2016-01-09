@@ -51,16 +51,6 @@ public class TeleOpMode extends CommonOpMode
     // declare mininum threshold for triggers to activate
     static final double TRIGGER_THRESHOLD = 0.25;
 
-    // declare motor and servo variables
-    DcMotor motorRight;
-    DcMotor motorLeft;
-    DcMotor motorSlide;
-    DcMotor motorTape;
-    DcMotor motorSweep;
-    DcMotor motorConveyor;
-    Servo servoTape;
-    Servo servoBucket;
-
     public TeleOpMode()
     {
         super();
@@ -68,18 +58,7 @@ public class TeleOpMode extends CommonOpMode
 
     public void init()
     {
-        // Register motors from hardware map
-        motorLeft = hardwareMap.dcMotor.get(LEFT_MOTOR_NAME);
-        motorRight = hardwareMap.dcMotor.get(RIGHT_MOTOR_NAME);
-        motorTape = hardwareMap.dcMotor.get(TAPE_MOTOR_NAME);
-        motorSlide = hardwareMap.dcMotor.get(SLIDE_MOTOR_NAME);
-        motorSweep = hardwareMap.dcMotor.get(BRUSH_MOTOR_NAME);
-        motorConveyor = hardwareMap.dcMotor.get(CONVEYOR_MOTOR_NAME);
-
-        // Register servos from hardware map
-        servoTape = hardwareMap.servo.get(TAPE_ARM_SERVO_NAME);
-        servoBucket = hardwareMap.servo.get(BUCKET_SERVO_NAME);
-
+        super.init();
         // set correct direction of motors
         motorLeft.setDirection(DcMotor.Direction.FORWARD);
         motorRight.setDirection(DcMotor.Direction.FORWARD);
@@ -203,6 +182,7 @@ public class TeleOpMode extends CommonOpMode
 
     // method specifically drives treads
     // TODO add a proper javadoc to this
+    @Override
     void drive(double lPower, double rPower)
     {
         motorLeft.setPower(scaleInputToMotor(lPower,CONTROLLER_DEFAULT_DEADZONE,DriveSpeed));
