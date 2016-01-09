@@ -3,6 +3,7 @@ package org.siliconedgerobotics.ftc.utils;
 /**
  * Created by Wei on 1/8/2016.
  * Use this class to access common hardware on the robot.
+ * @deprecated use CommonOpMode instead
  */
 public class HardwareRegistry {
 

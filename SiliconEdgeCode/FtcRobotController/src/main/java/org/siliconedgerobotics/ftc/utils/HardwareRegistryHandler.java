@@ -8,18 +8,23 @@ import com.qualcomm.robotcore.hardware.Servo;
  * Created by Wei on 1/8/2016.
  */
 
-/*
+/**
 * Utility class for wrapping registration methods for robot components.
 * This allows the same hardware to be easily used by different opmodes.
+*
+* @deprecated
+* Use CommonOpMode instead
 */
+
+@Deprecated
 public class HardwareRegistryHandler {
 
-    /*
+    /**
     * Hardware map, provided by the opmode utilizing this class
     */
     HardwareMap map;
 
-    /*
+    /**
     * Constructor
     * @param map The hardware map provided by an opmode
     */
