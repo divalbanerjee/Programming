@@ -13,11 +13,10 @@ public class AutonomousOpMode extends CommonOpMode {
         super();
     }
 
-    public void init(){
-
-    }
+    // spoiler alert: init() already defined in superclass
 
     public void loop(){
+
 
     }
 
